@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Blog Generator</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+      }
+      input,
+      button {
+        margin: 10px;
+        padding: 10px;
+        font-size: 16px;
+      }
+      #blogResult {
+        margin-top: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        min-height: 100px;
+        text-align: left;
+        white-space: pre-line;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Generate a Blog using AI</h1>
+    <input type="text" id="blogTopic" placeholder="Enter blog topic" />
+    <button onclick="generateBlog()">Generate Blog</button>
+
+    <h2>Generated Blog:</h2>
+    <div id="blogResult">Waiting for response...</div>
+
+    <script>
+      async function generateBlog() {
+        let topic = document.getElementById("blogTopic").value.trim();
+        let blogOutput = document.getElementById("blogResult");
+
+        if (!topic) {
+          blogOutput.innerText = "⚠️ Error: Please enter a topic!";
+          return;
+        }
+
+        blogOutput.innerText = "⏳ Generating blog... Please wait (~3 minutes)";
+
+        try {
+          let response = await fetch(
+            "https://sqvrw6tn20.execute-api.us-east-1.amazonaws.com/dev/blog_generation",
+            {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ blog_topic: topic }),
+            }
+          );
+
+          let data = await response.json();
+
+          if (data.blog) {
+            blogOutput.innerText = data.blog;
+          } else {
+            blogOutput.innerText = "⚠️ Error: Blog content not found!";
+          }
+        } catch (error) {
+          console.error("Fetch Error:", error);
+          blogOutput.innerText = "⚠️ Error: Could not fetch blog! Try again.";
+        }
+      }
+    </script>
+  </body>
+</html>

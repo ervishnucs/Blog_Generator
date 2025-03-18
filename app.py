@@ -6,7 +6,7 @@ from datetime import datetime
 
 # Load environment variables
 REGION = os.getenv("AWS_REGION", "us-east-1")
-S3_BUCKET = os.getenv("S3_BUCKET", "awsbedrockblogvishnu")
+S3_BUCKET = os.getenv("S3_BUCKET", "bucket_name")
 
 def blog_generate_using_bedrock(blogtopic: str) -> str:
     """Generates a blog using Amazon Bedrock and logs the full response for debugging."""

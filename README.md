@@ -13,8 +13,8 @@ The **AI Blog Generator** is a simple web-based application that allows users to
 
 ## Tech Stack
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** AWS Lambda, API Gateway
-- **AI Model:** OpenAI GPT-based model
+- **Backend:** AWS Lambda, API Gateway and S3 Buckets
+- **AI Model:** AWS Bedrock 
 
 ## How to Use
 1. Clone the repository:
@@ -25,11 +25,6 @@ The **AI Blog Generator** is a simple web-based application that allows users to
 3. Enter a blog topic and click **Generate Blog**.
 4. View the generated blog content on the page.
 
-## Live Demo
-[Click here to try the AI Blog Generator](https://your-live-demo-link.com)
-
-## GitHub Repository
-🔗 [AI Blog Generator](https://github.com/ervishnucs/Blog_Generator)
 
 ## Video Demonstration
 📺 [Watch on YouTube](https://youtu.be/Oekg6Jx0S_g)

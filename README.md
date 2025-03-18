@@ -49,10 +49,6 @@ The **AI Blog Generator** is a web-based application that utilizes AWS Bedrock t
     "blog_topic": "Your topic here"
   }
   ```
-
-## Contribution
-Feel free to contribute by submitting pull requests or reporting issues in the repository.
-
 ## GitHub Repository
 [GitHub Link](https://github.com/ervishnucs/Blog_Generator)
 

@@ -1,6 +1,6 @@
 # AI Blog Generator
 
-![AI Blog Generator](Screenshot 2025-03-18 225740.png)
+![AI Blog Generator](https://raw.githubusercontent.com/ervishnucs/Blog_Generator/main/Screenshot%202025-03-18%20225740.png)
 
 ## Overview
 The **AI Blog Generator** is a simple web-based application that allows users to generate blog content using AI. Simply enter a blog topic, and the AI will generate a well-structured blog for you.
@@ -33,3 +33,7 @@ The **AI Blog Generator** is a simple web-based application that allows users to
 
 ## Video Demonstration
 📺 [Watch on YouTube](https://youtu.be/Oekg6Jx0S_g)
+
+## Contribution
+Feel free to fork the repository, make improvements, and submit a pull request! 🚀
+

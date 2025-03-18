@@ -1,55 +1,35 @@
-## AI Blog Generator
-![image](https://github.com/user-attachments/assets/17a2730e-daf0-4f1a-bd05-e8efca49242a)
+# AI Blog Generator
+
+![AI Blog Generator](https://raw.githubusercontent.com/ervishnucs/Blog_Generator/main/assets/banner.png)
 
 ## Overview
-The **AI Blog Generator** is a web-based application that utilizes AWS Bedrock to generate high-quality blog posts based on user-provided topics. Users can enter a topic, and the system will generate a well-structured blog within seconds.
+The **AI Blog Generator** is a simple web-based application that allows users to generate blog content using AI. Simply enter a blog topic, and the AI will generate a well-structured blog for you.
+
+## Features
+- 📌 Generate AI-powered blog content instantly
+- 🔍 Easy-to-use interface
+- 🚀 Fast response time
+- 🎨 Minimalist and clean UI
 
 ## Tech Stack
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** AWS Lambda (Node.js/Python)
-- **AI Model:** AWS Bedrock (Large Language Models)
-- **API Gateway:** AWS API Gateway
-- **Hosting:** AWS S3 / Local
+- **Backend:** AWS Lambda, API Gateway
+- **AI Model:** OpenAI GPT-based model
 
-## Installation & Setup
-1. **Clone the Repository**
-   ```sh
+## How to Use
+1. Clone the repository:
+   ```bash
    git clone https://github.com/ervishnucs/Blog_Generator.git
-   cd Blog_Generator
    ```
+2. Open `index.html` in your browser.
+3. Enter a blog topic and click **Generate Blog**.
+4. View the generated blog content on the page.
 
-2. **Run Locally**
-   - Open `index.html` in a browser.
+## Live Demo
+[Click here to try the AI Blog Generator](https://your-live-demo-link.com)
 
-3. **Deployment**
-   - Deploy backend using AWS Lambda and API Gateway.
-   - Host frontend on AWS S3 or any static hosting service.
-
-## Usage
-1. Open the application in a web browser.
-2. Enter a blog topic in the input field.
-3. Click on the **Generate Blog** button.
-4. Wait for the AI to generate the blog and display the content.
-5. Copy and use the generated blog as needed.
-
-## API Endpoint
-- The AI Blog Generator fetches data from:
-  ```
-  https://api_gateway/dev/blog_generation
-  ```
-- The API expects a JSON request body:
-  ```json
-  {
-    "blog_topic": "Your topic here"
-  }
-  ```
 ## GitHub Repository
-[GitHub Link](https://github.com/ervishnucs/Blog_Generator)
+🔗 [AI Blog Generator](https://github.com/ervishnucs/Blog_Generator)
 
-## 
-
-![YouTubeLink](https://youtu.be/Oekg6Jx0S_g)
-
-
-
-
+## Video Demonstration
+📺 [Watch on YouTube](https://youtu.be/Oekg6Jx0S_g)

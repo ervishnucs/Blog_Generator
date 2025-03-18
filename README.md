@@ -1,4 +1,4 @@
-# AI Blog Generator
+![image](https://github.com/user-attachments/assets/17a2730e-daf0-4f1a-bd05-e8efca49242a)# AI Blog Generator
 
 ## Overview
 The **AI Blog Generator** is a web-based application that utilizes AWS Bedrock to generate high-quality blog posts based on user-provided topics. Users can enter a topic, and the system will generate a well-structured blog within seconds.
@@ -51,6 +51,11 @@ The **AI Blog Generator** is a web-based application that utilizes AWS Bedrock t
   ```
 ## GitHub Repository
 [GitHub Link](https://github.com/ervishnucs/Blog_Generator)
+
+## Blog Generator
+
+![image](Screenshot 2025-03-18 225740)
+
 
 
 

@@ -29,6 +29,5 @@ The **AI Blog Generator** is a simple web-based application that allows users to
 ## Video Demonstration
 📺 [Watch on YouTube](https://youtu.be/Oekg6Jx0S_g)
 
-## Contribution
-Feel free to fork the repository, make improvements, and submit a pull request! 🚀
+
 
